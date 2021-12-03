@@ -1,0 +1,11 @@
+#clue-banner {
+    background:url(banner.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+.jumbotron {
+    color: #fff;
+    padding-top: 360px;
+    padding-bottom: 40px;
+}

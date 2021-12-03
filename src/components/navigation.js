@@ -6,7 +6,7 @@ import {
  NavDropdown,
  Container
 } from "react-bootstrap";
-import logo from '../logo192.png';
+import logo from '../aperture.png';
  
 const Navigation = () => {
 

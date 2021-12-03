@@ -1,14 +1,5 @@
-.log-in-card{
-  margin: 100px auto;
-}
-
 body {
-background: url(./mountains.jpg);
-background-position: center top;
-background-size: cover;  
-background-repeat: no-repeat;
-font-family: 'Fira Sans', sans-serif;
-background-color: var(--bs-dark);
+  font-family: 'Roboto', sans-serif;
 }
 
 .container-fluid {
@@ -16,19 +7,110 @@ background-color: var(--bs-dark);
   padding: 0;
 }
 
-.card {
-  background-color: #000000a8;
+.poster {
+  margin-bottom: 20px;
 }
 
-.form-label{
-  color: #fff;
-  font-weight: bold;
-}
-
+/* logo */
 #root > div > nav > div > a > img {
   width: 50px;
 }
 
-#header {
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 80px;
+}
+
+h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.movie-banner {
+  background: #000;
+}
+
+#footer {
+  margin-top: 200px;
+  height: 400px;
+  background-color: var(--bs-dark);
+}
+
+.metadata-container {
+  background-color: var(--bs-dark);
+}
+
+.metadata {
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #fff;
+}
+
+.main-content {
+  margin-top: 50px;
+}
+
+img {width: 100%;}
+
+.tagline {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+.review-box {
+ 
+  
+  background-color: #ededed;
+  padding: 30px;
+}
+.review-form {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  padding: 1rem;  
+}
+.review-form-fields {
+  margin-bottom: 0.25rem;
+}
+.review-form-fields input, .review-form-fields textarea {
+    border: none;
+    border-bottom: 1px solid #808080;
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 0.25rem 0;
+    width: 99%;
+  }
+
+  #stars{
+    margin-bottom: 20px;
+  }
+  textarea {
+    font-style: italic;
+  }
+
+
+.review-count {
+  color: #808080;
+}
+.right{
+  text-align: right;
+}
+.review {
+  border-top: 1px solid #808080;
+  padding: 20px;
+}
+.review-body {
+  font-style: italic;
+ 
+
+}
+.review-header {
+  margin-left: 1rem;
+}
+.review-footer {
+  margin-bottom: 1rem;
+  
 }
